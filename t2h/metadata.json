@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "", 
+    "center": "113.2517,2.8513,16", 
+    "bounds": "113.2446,2.8455,113.2582,2.8566", 
+    "minzoom": "14", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "20", 
+    "name": "landsat_img"
+}
