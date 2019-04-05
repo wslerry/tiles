@@ -1,0 +1,11 @@
+{
+    "bounds": "109.5364,0.7169,115.6888,5.0718",
+    "center": "113.0301,2.5069,8",
+    "minzoom": "8",
+    "maxzoom": "12",
+    "name": "Sarawak Geological Map",
+    "description": "Tile map of hillshade terrain",
+    "attribution": "Lerry William Seling",
+    "template": "",
+    "version": "1.0.0"
+}
