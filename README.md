@@ -5,5 +5,5 @@ This is a collection of mat tiles for my own use. Feel free to used it for your 
 To use, copy the address below:
 
 ```
-https://tiles.lerryws.xyz/t2h/{z}/{x}/{y}.png
+https://tiles.lerryws.xyz/<folder-name>/{z}/{x}/{y}.png
 ```
