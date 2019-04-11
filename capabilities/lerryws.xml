@@ -17,8 +17,8 @@
             <ows:Title>cartopixels - geo-shading</ows:Title>
             <ows:Abstract></ows:Abstract>
 			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-				<ows:LowerCorner>111.50273998 1.29181081</ows:LowerCorner>
-				<ows:UpperCorner>114.46258490 3.77854493</ows:UpperCorner>
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
 			</ows:WGS84BoundingBox>
             <ows:Identifier>geo-shading</ows:Identifier>
             <Style isDefault="true">
