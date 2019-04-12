@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
+              version="1.0.0">
+    <ows:ServiceIdentification>
+        <ows:Title>Cartopixels</ows:Title>
+        <ows:Abstract>
+        </ows:Abstract>
+        <ows:ServiceType>OGC WMTS</ows:ServiceType>
+        <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+        <ows:Fees>none</ows:Fees>
+        <ows:AccessConstraints></ows:AccessConstraints>
+    </ows:ServiceIdentification>
+    <Contents>
+        <Layer>
+            <ows:Title>Sarawak Geological Map</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>
+            <ows:Identifier>Sarawak-geology</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>Sarawak-geology</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://tiles.lerryws.xyz/sarawak_geological_map/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+		<Layer>
+            <ows:Title>Carto - dark</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>
+            <ows:Identifier>carto-dark</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>carto-dark</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.basemaps.cartocdn.com/dark_all/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Carto - light</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>			
+            <ows:Identifier>carto-light</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>carto-light</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.basemaps.cartocdn.com/light_all/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - comic</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>				
+            <ows:Identifier>mapbox-comic</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-comic</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.comic/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - wheatpaste</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-wheatpaste</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-wheatpaste</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.wheatpaste/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - streets</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-streets</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-streets</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.streets/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - satellite</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-satellite</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-satellite</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v3/brightrain.map-bpwe9yas/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - run-bike-hike</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-run-bike-hike</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-run-bike-hike</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.run-bike-hike/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - pirates</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-pirates</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-pirates</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.pirates/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - pencil</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-pencil</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-pencil</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.pencil/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - outdoors</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-outdoors</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-outdoors</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - light</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-light</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-light</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.light/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - high-contrast</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-high-contrast</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-high-contrast</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.high-contrast/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - emerald</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-emerald</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-emerald</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.emerald/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - dark</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>mapbox-dark</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-dark</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.dark/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1Ijoid3NsZXJyeTIiLCJhIjoidzU2MzgybyJ9.CX2ELkCSWDSnL8bwCxKNLA"
+                         resourceType="tile"/>
+        </Layer>
+		<Layer>
+            <ows:Title>OpenStreetMap Black and White</ows:Title>
+            <ows:Abstract>OSM Black and White</ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>osm-blackwhite</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>osm-blackwhite</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://a.tiles.wmflabs.org/bw-mapnik/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>OpenStreetMap</ows:Title>
+            <ows:Abstract>Standard OSM Layer rendered using openstreetmap-carto and Mapnik</ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>osm-mapnik</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapnik</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>OpenStreetMap.DE</ows:Title>
+            <ows:Abstract>OpenStreetMap.DE</ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>osm-openstreetmap.de</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>osm-openstreetmap.de</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>OpenStreetMap.FR</ows:Title>
+            <ows:Abstract>OpenStreetMap.FR</ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>osm-openstreetmap.fr</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>OpenStreetMap.FR</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+          <ResourceURL format="image/png"
+                         template="https://a.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>OpenStreetMap.OpenTopoMap</ows:Title>
+            <ows:Abstract>OpenStreetMap.OpenTopoMap</ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>osm-openstreetmap.opentopomap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>OpenStreetMap.OpenTopoMap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+          <ResourceURL format="image/png"
+                         template="https://a.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Stamen - Terrain</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>stamen-terrain</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>stamen</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="http://a.tile.stamen.com/terrain-background/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Stamen - Toner</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>stamen-toner</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>stamen</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="http://a.tile.stamen.com/toner/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Stamen - Watercolor</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>stamen-watercolor</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>stamen</ows:Identifier>
+            </Style>
+            <Format>image/jpg</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="http://a.tile.stamen.com/watercolor/{TileMatrix}/{TileCol}/{TileRow}.jpg"
+                         resourceType="tile"/>
+            <ResourceURL format="image/jpg"
+                         template="http://b.tile.stamen.com/watercolor/{TileMatrix}/{TileCol}/{TileRow}.jpg"
+                         resourceType="tile"/>
+            <ResourceURL format="image/jpg"
+                         template="http://c.tile.stamen.com/watercolor/{TileMatrix}/{TileCol}/{TileRow}.jpg"
+                         resourceType="tile"/>
+            <ResourceURL format="image/jpg"
+                         template="http://d.tile.stamen.com/watercolor/{TileMatrix}/{TileCol}/{TileRow}.jpg"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Strava - all</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>strava-all</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-a.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-c.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Strava - ride</ows:Title>
+            <ows:Abstract></ows:Abstract>
+			<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+				<ows:LowerCorner>108.99437294 -0.04073073</ows:LowerCorner>
+				<ows:UpperCorner>115.89948784 5.75707846</ows:UpperCorner>
+			</ows:WGS84BoundingBox>	
+            <ows:Identifier>strava-ride</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-a.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-c.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+        </Layer>
+		
+        <TileMatrixSet>
+            <ows:Identifier>google3857</ows:Identifier>
+            <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
+                <ows:LowerCorner>977650 5838030</ows:LowerCorner>
+                <ows:UpperCorner>1913530 6281290</ows:UpperCorner>
+            </ows:BoundingBox>
+            <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
+            <WellKnownScaleSet>urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible</WellKnownScaleSet>
+            <TileMatrix>
+                <ows:Identifier>8</ows:Identifier>
+                <ScaleDenominator>2183915.09386</ScaleDenominator>
+                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>256</MatrixWidth>
+                <MatrixHeight>256</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>9</ows:Identifier>
+                <ScaleDenominator>1091957.54693</ScaleDenominator>
+                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>512</MatrixWidth>
+                <MatrixHeight>512</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>10</ows:Identifier>
+                <ScaleDenominator>545978.773466</ScaleDenominator>
+                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>1024</MatrixWidth>
+                <MatrixHeight>1024</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>11</ows:Identifier>
+                <ScaleDenominator>272989.386733</ScaleDenominator>
+                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>2048</MatrixWidth>
+                <MatrixHeight>2048</MatrixHeight>
+            </TileMatrix>
+            <TileMatrix>
+                <ows:Identifier>12</ows:Identifier>
+                <ScaleDenominator>136494.693366</ScaleDenominator>
+                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>4096</MatrixWidth>
+                <MatrixHeight>4096</MatrixHeight>
+            </TileMatrix>
+        </TileMatrixSet>
+    </Contents>
+</Capabilities>
