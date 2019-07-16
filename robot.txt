@@ -1,0 +1,7 @@
+User-agent: Twitterbot
+Disallow: /capabilities
+Disallow: /sarawak_geological_map
+
+User-agent: *
+Disallow: /capabilities
+Disallow: /sarawak_geological_map
