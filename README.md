@@ -3,7 +3,9 @@
 This is a collection of map tiles that I produce for learning and development purpose. Feel free to used it for your own project.
 
 
-To use, copy the address below:
+## How to use?
+
+Copy the URL address below into your script.
 
 ### XYZ tiles
 
@@ -30,3 +32,5 @@ eg.
 - Sarawak Geological Basemap (https://tiles.lerryws.xyz/sarawak_geological_map/). < Access date >
 - Sarawak Hillshade Basemap (https://tiles.lerryws.xyz/sarawak_hillshade@1.0/). < Access date >
 - Sarawak Imhoff Style Basemap (https://tiles.lerryws.xyz/sarawak_imhof@1.0/). < Access date >
+
+__This project is maintain by [lerryws.xyz](https://lerryws.xyz/).__
