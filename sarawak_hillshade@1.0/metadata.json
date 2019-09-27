@@ -1,0 +1,13 @@
+{
+  "name": "sarawak_hillshade@1.0.0",
+  "version": "1.1.0",
+  "description": "Hillshdae basemap of terrain in Sarawak",
+  "attribution": "Tiles by <a href=\"https://lerryws.xyz/\">lerryws.xyz</a>",
+  "type": "overlay",
+  "format": "png",
+  "minzoom": "5",
+  "maxzoom": "12",
+  "scale": "1.000000",
+  "bounds": [109.49316054, 0.78963597, 115.73532293, 5.05628996],
+  "profile": "mercator"
+}
